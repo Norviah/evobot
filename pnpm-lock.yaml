@@ -58,8 +58,8 @@ importers:
         specifier: ^0.1.1
         version: 0.1.1
       sodium-native:
-        specifier: ^3.4.1
-        version: 3.4.1
+        specifier: ^4.1.1
+        version: 4.1.1
       tweetnacl:
         specifier: ^1.0.3
         version: 1.0.3
@@ -1117,8 +1117,8 @@ packages:
     resolution: {integrity: sha512-VpsrsJSUcJEseSbMHkrsrAVSdvVS5I96Qo1QAQ4FxQ9wXFcB+pjj7FB7/us9+GcgfW4ziHtYMc1J0PLczb55mg==}
     engines: {node: '>=8.10.0'}
 
-  sodium-native@3.4.1:
-    resolution: {integrity: sha512-PaNN/roiFWzVVTL6OqjzYct38NSXewdl2wz8SRB51Br/MLIJPrbM3XexhVWkq7D3UWMysfrhKVf1v1phZq6MeQ==}
+  sodium-native@4.1.1:
+    resolution: {integrity: sha512-LXkAfRd4FHtkQS4X6g+nRcVaN7mWVNepV06phIsC6+IZFvGh1voW5TNQiQp2twVaMf05gZqQjuS+uWLM6gHhNQ==}
 
   soundcloud-downloader@0.2.4:
     resolution: {integrity: sha512-ncXi9AC3Crs8azBBUw0u5n6RyJpuV3QhBPDkI8dik3e9r7l6L6mmmrdGgKITsOwEuj3rxoTdFvSAP4pv2VorRw==}
@@ -2432,7 +2432,7 @@ snapshots:
     dependencies:
       semver: 7.0.0
 
-  sodium-native@3.4.1:
+  sodium-native@4.1.1:
     dependencies:
       node-gyp-build: 4.8.1
     optional: true
