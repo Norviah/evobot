@@ -42,8 +42,8 @@ importers:
         specifier: ^1.0.4
         version: 1.0.4
       tslib:
-        specifier: ^2.6.3
-        version: 2.6.3
+        specifier: ^2.8.0
+        version: 2.8.0
       youtube-sr:
         specifier: ~4.3.0
         version: 4.3.11
@@ -172,6 +172,7 @@ packages:
   '@distube/ytdl-core@4.14.3':
     resolution: {integrity: sha512-z6i5EVGEuKhuvuRNyIqafBSs5aRA28HssnWehCRhEtYrxeFgXImfmpKTjUusHYU5vQt1swSVPVb2JCd22P0CPA==}
     engines: {node: '>=14.0'}
+    deprecated: This version is deprecated, please upgrade to the latest version.
 
   '@fastify/busboy@2.1.1':
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
@@ -1202,8 +1203,8 @@ packages:
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
 
-  tslib@2.6.3:
-    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+  tslib@2.8.0:
+    resolution: {integrity: sha512-jWVzBLplnCmoaTr13V9dYbiQ99wvZRd0vNWaDRg+aVYRcjDF3nDksxFDE/+fkXnKhpnUUkmx5pK/v8mCtLVqZA==}
 
   tweetnacl@1.0.3:
     resolution: {integrity: sha512-6rt+RN7aOi1nGMyC4Xa5DdYiukl2UWCbcJft7YhxReBGQD7OAM8Pbxw6YMo4r2diNEA8FEmu32YOn9rhaiE5yw==}
@@ -1384,7 +1385,7 @@ snapshots:
       discord-api-types: 0.37.83
       fast-deep-equal: 3.1.3
       ts-mixer: 6.0.4
-      tslib: 2.6.3
+      tslib: 2.8.0
 
   '@discordjs/collection@1.5.3': {}
 
@@ -1428,7 +1429,7 @@ snapshots:
       '@vladfrangu/async_event_emitter': 2.4.4
       discord-api-types: 0.37.83
       magic-bytes.js: 1.10.0
-      tslib: 2.6.3
+      tslib: 2.8.0
       undici: 6.13.0
 
   '@discordjs/util@1.1.0': {}
@@ -1438,7 +1439,7 @@ snapshots:
       '@types/ws': 8.5.11
       discord-api-types: 0.37.83
       prism-media: 1.3.5(@discordjs/opus@0.9.0(encoding@0.1.13))(ffmpeg-static@4.4.1)(opusscript@0.1.1)
-      tslib: 2.6.3
+      tslib: 2.8.0
       ws: 8.18.0
     transitivePeerDependencies:
       - '@discordjs/opus'
@@ -1457,7 +1458,7 @@ snapshots:
       '@types/ws': 8.5.11
       '@vladfrangu/async_event_emitter': 2.4.4
       discord-api-types: 0.37.83
-      tslib: 2.6.3
+      tslib: 2.8.0
       ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
@@ -2403,7 +2404,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.8.0
 
   safe-buffer@5.2.1: {}
 
@@ -2530,7 +2531,7 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tslib@2.6.3: {}
+  tslib@2.8.0: {}
 
   tweetnacl@1.0.3:
     optional: true
