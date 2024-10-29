@@ -12,8 +12,8 @@ importers:
         specifier: ^0.17.0
         version: 0.17.0(@discordjs/opus@0.9.0(encoding@0.1.13))(ffmpeg-static@4.4.1)(opusscript@0.1.1)
       '@distube/ytdl-core':
-        specifier: ^4.14.3
-        version: 4.14.3
+        specifier: ^4.15.1
+        version: 4.15.1
       array-move:
         specifier: ^3.0.1
         version: 3.0.1
@@ -169,8 +169,8 @@ packages:
     resolution: {integrity: sha512-PZ+vLpxGCRtmr2RMkqh8Zp+BenUaJqlS6xhgWKEZcgC/vfHLEzpHtKkB0sl3nZWpwtcKk6YWy+pU3okL2I97FA==}
     engines: {node: '>=16.11.0'}
 
-  '@distube/ytdl-core@4.14.3':
-    resolution: {integrity: sha512-z6i5EVGEuKhuvuRNyIqafBSs5aRA28HssnWehCRhEtYrxeFgXImfmpKTjUusHYU5vQt1swSVPVb2JCd22P0CPA==}
+  '@distube/ytdl-core@4.15.1':
+    resolution: {integrity: sha512-10voV+ixUVQgam4/GMhjNTX/ipk9odkPnPoRaUESs5E/EW0JujwPDc815z53D86mSRlVc8esH1eiuzFnxLJKcA==}
     engines: {node: '>=14.0'}
 
   '@fastify/busboy@2.1.1':
@@ -328,6 +328,7 @@ packages:
 
   boolean@3.2.0:
     resolution: {integrity: sha512-d0II/GO9uf9lfUHH2BQsjxzRJZBdsjgsBiW4BvhWk/3qoKwQFjIDVN19PfX8F2D/r9PCMTtLWjYVCFrpeYUzsw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   brace-expansion@1.1.11:
     resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
@@ -666,11 +667,11 @@ packages:
   htmlparser2@3.10.1:
     resolution: {integrity: sha512-IgieNijUMbkDovyoKObU1DUhm1iwNYE/fuifEoEHfd1oZKZDaONBSkal7Y01shxsM49R4XaMdGez3WnF9UfiCQ==}
 
-  http-cookie-agent@6.0.5:
-    resolution: {integrity: sha512-sfZ8fDgDP3B1YB+teqSnAK1aPgBu8reUUGxSsndP2XnYN6cM29EURXWXZqQQiaRdor3B4QjpkUNfv21syaO4DA==}
+  http-cookie-agent@6.0.6:
+    resolution: {integrity: sha512-XkwhYUWo0yhiHBWqLmAe2kIBymVY70ewi9sKmy6YBHpNU3BCH4nipKrtY5/effAxj0qneQ9ziZG5TXgaKLfYgg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
-      tough-cookie: ^4.0.0
+      tough-cookie: ^4.0.0 || ^5.0.0
       undici: ^5.11.0 || ^6.0.0
     peerDependenciesMeta:
       undici:
@@ -1463,9 +1464,9 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@distube/ytdl-core@4.14.3':
+  '@distube/ytdl-core@4.15.1':
     dependencies:
-      http-cookie-agent: 6.0.5(tough-cookie@4.1.4)(undici@5.28.4)
+      http-cookie-agent: 6.0.6(tough-cookie@4.1.4)(undici@5.28.4)
       m3u8stream: 0.8.6
       miniget: 4.2.3
       sax: 1.4.1
@@ -2009,7 +2010,7 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  http-cookie-agent@6.0.5(tough-cookie@4.1.4)(undici@5.28.4):
+  http-cookie-agent@6.0.6(tough-cookie@4.1.4)(undici@5.28.4):
     dependencies:
       agent-base: 7.1.1
       tough-cookie: 4.1.4
